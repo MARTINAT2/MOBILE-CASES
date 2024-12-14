@@ -1,0 +1,134 @@
+body{
+    font-family: arial, sans-serif;
+text-align: center;
+margin: 0;
+padding: 0;
+background-color:rgb(197, 214, 156);
+
+
+
+}
+
+header p{
+ 
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  background-color:rgb(255, 255, 255);
+  text-align: center;
+  color: rgb(188, 214, 117);
+  
+  }
+
+
+
+  header h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-style: bold;
+    color: rgb(255, 255, 255);
+}
+
+
+p{
+font-size: 2rem ;
+color: rgb(188, 214,117);
+
+
+}
+
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgb(255, 255, 255);
+  
+  }
+.navbar.mobile a{
+font-size: 1.8rem;
+color: aliceblue;
+text-decoration: none;
+
+}
+
+  
+  .nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+    }
+
+    .nav-links li a{
+      text-decoration: none;
+      color: rgb(212, 226, 163);
+      font-size: 1.1rem;
+      
+      }
+
+      .nav-links li a:hover {
+        color: #79eb44;
+      }
+
+h2{
+color:rgb(180, 190, 140) ;
+text-align: center;
+background-color: rgb(255, 255, 255);
+padding: 20px 0px;
+}
+
+
+
+
+section{
+  margin:20px ;
+  background-color:rgba(228, 238, 185, 0.938);
+  
+  }
+
+
+   section.img {
+     display: flex;
+   
+   
+     }
+
+
+
+
+  .action-button{
+  align-content:center;
+  padding:10px 20px;
+   background-color: rgb(255, 255, 255);
+   color:rgb(0, 0, 0);
+   border:none;
+   border-radius:10px;
+   cursor: pointer;
+   transition:background-color 0.3s;
+
+
+
+
+   }
+   
+ 
+
+footer{
+background-color: rgb(255, 255, 255);
+padding:20px;
+text-align: center;
+color:  rgb(211, 219, 136);
+font-size: 1.2rem;;
+ }
+ 
+
+ 
+   
+ 
+ 
+
+
+
+
